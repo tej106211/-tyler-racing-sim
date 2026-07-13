@@ -38,7 +38,7 @@ button,input,select{font:inherit} button{cursor:pointer} a{color:#83ddff}
 .shell{max-width:1320px;margin:auto;padding:18px 16px 70px}
 .topbar{
   position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;
-  align-items:center;gap:15px;margin-bottom:18px;padding:13px 15px;
+  align-items:center;gap:15px;margin-bottom:18px;padding:calc(13px+env(safe-area-inset-top))15px13px;
   border:1px solid rgba(255,255,255,.08);border-radius:19px;
   background:rgba(7,11,18,.8);backdrop-filter:blur(18px);box-shadow:0 14px 40px rgba(0,0,0,.22)
 }
